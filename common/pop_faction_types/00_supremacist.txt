@@ -249,10 +249,7 @@ supremacist = {
 			exists = owner
 			owner = {
 				NOT = { has_valid_civic = civic_fanatic_purifiers }
-				any_first_contact = {
-                    is_site_completed = yes
-                    contact_country = { is_country_type = default }
-                }
+				num_communications > 2
 			}
 		}
 

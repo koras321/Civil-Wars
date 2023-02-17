@@ -222,10 +222,7 @@ totalitarian = {
 		potential = {
 			exists = owner
 			owner = {
-				any_first_contact = {
-                    is_site_completed = yes
-                    contact_country = { is_country_type = default }
-                }
+				num_communications > 2
 			}
 		}
 
