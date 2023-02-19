@@ -13,12 +13,6 @@ on_game_start_country = {
 	}
 }
 
-on_monthly_pulse = {
-	events = {
-		civmisc.9000			# Change GiE Subjects to Enclaves
-	}
-}
-
 # this = country
 on_monthly_pulse_country = {
 	events = {
